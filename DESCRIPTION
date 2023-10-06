@@ -1,0 +1,22 @@
+Package: wikiscrapeR
+Type: Package
+Title: Wikipedia Data Scraping and Processing in R
+Version: 1.0.0
+Author: Jeffrey Ohene
+Maintainer: Jeffrey Ohene <jeffrey.ohene@aol.com>
+Description: A package for working with Wikipedia data, including scraping 
+    tables, retrieving page summaries, and extracting information such as 
+    references in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    jsonlite,
+    rvest,
+    utils,
+    openxlsx,
+    httr,
+    purrr,
+    stats
+Additional_repositories: inst
+RoxygenNote: 7.2.3
